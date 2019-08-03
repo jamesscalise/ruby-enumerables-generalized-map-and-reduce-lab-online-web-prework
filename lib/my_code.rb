@@ -1,3 +1,3 @@
-def map(array, block)
+def map(array)
 
 def reduce(array, starting_point = 0)
