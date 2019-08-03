@@ -8,11 +8,10 @@ def map(array)
   return new
 end
 def reduce(array, starting_point = 0)
-  
-  i = 
+  i = 0
   while i<array.length do
-    start = yield(start, array[i])
+    start = yield(starting_point, array[i])
     i+=1
   end
-  return start
+  return starting_point
 end
