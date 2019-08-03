@@ -6,6 +6,6 @@ def map(array)
     i +=1
   end
   return new
-  
+end
 def reduce(array, starting_point = 0)
 end
