@@ -9,9 +9,14 @@ def map(array)
 end
 def reduce(array, starting_point = 0)
   i = 0
-  while i<array.length do
-    starting_point = yield(starting_point, array[i])
-    i+=1
+  if starting_point = 0 
+    
   end
-  return starting_point
+  else
+    while i<array.length do
+      starting_point = yield(starting_point, array[i])
+      i+=1
+    end
+    return starting_point
+  end
 end
