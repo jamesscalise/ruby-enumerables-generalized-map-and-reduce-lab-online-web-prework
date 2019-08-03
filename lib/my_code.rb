@@ -13,4 +13,5 @@ def reduce(array, starting_point = 0)
     starting_point = yield(starting_point, array[i])
     i+=1
   end
+  return starting_point
 end
