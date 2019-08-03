@@ -8,4 +8,5 @@ def map(array)
   return new
 end
 def reduce(array, starting_point = 0)
+  
 end
